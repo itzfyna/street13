@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>street13</title>
+	<style>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<img src="images/logo.png" width="200" height="100">
+				<a href="login.html"><button type="submit" align="right">login</a>
+			</nav>
+			 <img src="images/fries.jpeg" width="100%" height="100">
+		<section style="background-color:#f2f2f2; width:1000;height:200;">
+			<a href="getfood.html">Burgers</a>
+			<a href="fries.html">Fries</a>
+			<a href="combos.html">Combo</a>
+			<div class="row">
+  <div class="column">
+   <a href="order4.html"> <img src="images/burger.jpeg" alt="Beef Burger N1800 ";width="100";height="200"<b>Beef Burger(double) N2500</b></img</a>
+  <div class="column">
+     <a href="order3.html"><img src="images/burger2.jpeg" alt="Chicken Burger";width="100";height="200"><b>Chicken Burger N2200</b></img></a>
+  </div>
+</div>
+		<div class="row">
+  <div class="column">
+    <a href="order1.html"><img src="images/burger4.jpeg" alt="cheese burger";width="300";height="200"><b>Cheese Burger N3300</b></img></a>
+  </div>
+  <div class="column">
+    <a href="order5.html"><img src="images/burger3.jpeg" alt="Beef Burger" ;width="200";height="200"><b>Beef Burger(Single) N1800</b></img></a>
+  </div>
+</div>
+<h2>Popup Chat Window</h2>
+<p>Got any complaints or questions? <br> Or you need help?<br>
+Click on the button at the bottom of this page to open the chat form.</p>
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="button" class="btn">Send</button>
+  
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+	<footer>
+			         	<p>STREET13                                CALL RESTAURANT
+			         	07056389375</p>
+
+			         	<img src="images/twitter.png"width="50px" height="50px"></a>
+			         	<img src="images/instagram.jpg" width="50px" height="50px"></a>
+			         	<a href="tel:07056389375" target="_blank"><img src="images/contact.png" width="50px" height="50px"></a>
+			         </footer>
